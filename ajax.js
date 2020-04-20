@@ -56,7 +56,7 @@ $('#btn4').click(function(){
 $('#btn5').click(function(){
     $.ajax({
         method: 'PUT',
-        url: 'https://my-json-server.typicode.com/zachhall/WIN2020_AjaxPromises/posts/10',
+        url: 'https://my-json-server.typicode.com/zachhall/WIN2020_AjaxPromises/posts/14',
         data: {
             userId: 1,
             title: "New Post",
@@ -75,7 +75,7 @@ $('#btn5').click(function(){
 $('#btn6').click(function(){
     $.ajax({
         method: 'PATCH',
-        url: 'https://my-json-server.typicode.com/zachhall/WIN2020_AjaxPromises/posts/10',
+        url: 'https://my-json-server.typicode.com/zachhall/WIN2020_AjaxPromises/posts/14',
         data: {
     title: "patched it"
     },
@@ -92,7 +92,7 @@ $('#btn6').click(function(){
 $('#btn7').click(function(){
     $.ajax({
         method: 'DELETE',
-        url: 'http://jsonplaceholder.typicode.com/posts/12',
+        url: 'http://jsonplaceholder.typicode.com/posts/14',
         complete: function(response){
             list.empty();
             var li = $('<li></li>');
